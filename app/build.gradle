@@ -70,10 +70,13 @@ dependencies {
   implementation Libs.AndroidX.Compose.activity
 
   implementation Libs.Coil.sdk
-  implementation Libs.exoplayer
 
   androidTestImplementation Libs.junit
   androidTestImplementation Libs.AndroidX.Test.core
   androidTestImplementation Libs.AndroidX.Test.Ext.junit
   androidTestImplementation Libs.AndroidX.Test.rules
+
+  implementation Libs.ExoPlayer.core
+  implementation Libs.ExoPlayer.ui
+
 }

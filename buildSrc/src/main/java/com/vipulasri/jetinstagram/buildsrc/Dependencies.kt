@@ -1,10 +1,14 @@
 package com.vipulasri.jetinstagram.buildsrc
 
 object Libs {
-  const val androidGradlePlugin = "com.android.tools.build:gradle:7.1.0-alpha12"
+  const val androidGradlePlugin = "com.android.tools.build:gradle:7.1.3"
   const val junit = "junit:junit:4.13"
 
-  const val exoplayer = "com.google.android.exoplayer:exoplayer:2.11.8"
+  object ExoPlayer {
+    private const val version = "2.11.8"
+    const val core = "com.google.android.exoplayer:exoplayer-core:$version"
+    const val ui   = "com.google.android.exoplayer:exoplayer-ui:$version"
+  }
 
   object Coil {
     private const val version = "1.3.2"
@@ -12,7 +16,7 @@ object Libs {
   }
 
   object Kotlin {
-    private const val version = "1.5.21"
+    private const val version = "1.6.21"
     const val stdlib = "org.jetbrains.kotlin:kotlin-stdlib:$version"
     const val gradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$version"
     const val extensions = "org.jetbrains.kotlin:kotlin-android-extensions:$version"
