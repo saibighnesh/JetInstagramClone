@@ -76,7 +76,7 @@ dependencies {
   androidTestImplementation Libs.AndroidX.Test.Ext.junit
   androidTestImplementation Libs.AndroidX.Test.rules
 
-  implementation Libs.ExoPlayer.core
-  implementation Libs.ExoPlayer.ui
+//  implementation Libs.ExoPlayer.core
+//  implementation Libs.ExoPlayer.ui
 
 }
